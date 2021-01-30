@@ -1,8 +1,10 @@
 # Setting up IMACS Approx_LKAS using Webots in Linux
 
-More details about the simulator can be found in http://www.es.ele.tue.nl/ecs/imacs. You could also read the papers below.
-If you are using this simulator in any form in your work, please cite:
+More details about the repo can be found in http://www.es.ele.tue.nl/ecs/imacs. You could also read the papers below.
+If you are using this repo in any form in your work, please cite:
 ```
+S. De, Y. Huang, S. Mohamed, D. Goswami and H. Corporaal, "Hardware- and Situation-Aware Sensing for Robust Closed-Loop Control Systems," in Design, Automation & Test in Europe Conference (DATE), 2021.
+
 S. De, S. Mohamed, K. Bimpisidis, D. Goswami, T. Basten and H. Corporaal, "Approximation Trade Offs in an Image-Based Control System," in Design, Automation & Test in Europe Conference (DATE), 2020, pp. 1680-1685, doi: 10.23919/DATE48585.2020.9116552.
 
 S. De, S. Mohamed, D. Goswami and H. Corporaal, "Approximation-Aware Design of an Image-Based Control System," in IEEE Access, vol. 8, pp. 174568-174586, 2020, doi: 10.1109/ACCESS.2020.3023047.
@@ -26,8 +28,8 @@ Tested with the following versions:
 
 Initially, clone this repository:
 ```
-git clone https://github.com/YingkaiHuang/Approx_LKAS.git
-cd Approx_LKAS
+git clone https://github.com/sayandipde/robust_dynamic_sesning.git
+cd robust_dynamic_sesning
 pwd
 ```
 For brevity, `$(root)=pwd`, i.e. the path to `Approx_LKAS` is called as `$(root)` or `$(LKASROOT)`. 
@@ -97,9 +99,9 @@ sudo gedit /etc/environment
 ```
 Add these lines to the end of this file, save and close the file. As an example,
 ```
-# root = /home/sajid/Desktop/IMACS_cppVrep
-CLANG=/home/sajid/Desktop/cppvrepimacs/externalApps/llvm/bin/clang
-LLVM_CONFIG=/home/sajid/Desktop/cppvrepimacs/externalApps/llvm/bin/llvm-config
+# root = /home/USER/Desktop/IMACS_cppVrep
+CLANG=/home/USER/Desktop/cppvrepimacs/externalApps/llvm/bin/clang
+LLVM_CONFIG=/home/USER/Desktop/cppvrepimacs/externalApps/llvm/bin/llvm-config
 ```
 source the paths for this to take effect.
 ```
