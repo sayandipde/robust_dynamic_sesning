@@ -1,4 +1,4 @@
-# Setting up IMACS Approx_LKAS using Webots in Linux
+# Hardware- and Situation-Aware Sensing for Robust Closed-Loop Control Systems
 
 More details about the repo can be found in http://www.es.ele.tue.nl/ecs/imacs. You could also read the papers below.
 If you are using this repo in any form in your work, please cite:
